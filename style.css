@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    margin: 10px;
+    padding: 10px;
+}
+.upper{
+    background-color: red;
+    color: white;
+    margin: 2px;
+    /* padding: 3px; */
+}
+.re{
+    background: green;
+    height: 20px;
+    width: 70px;
+    /* white-space:50px; */
+}
+.se{
+    align-items: center;
+    text-align: center;
+    left: 40%;
+}
