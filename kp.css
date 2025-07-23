@@ -192,6 +192,67 @@ font-size: 0.8rem;
     margin: 2px;
     color: black;
 }
+@media screen and (max-width: 768px) {
+    .amabar {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px;
+    }
+
+    .ama-search {
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .menu {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .menu-list {
+        width: 100%;
+    }
+
+    .menu-list p {
+        display: block;
+        margin: 5px 0;
+    }
+.box1, .box2, .box3 {
+    width: 48%;
+    height: auto;
+    aspect-ratio: 1 / 1; /* Keeps square ratio */
+    background-size: cover;
+    background-position: center;
+    margin: 5px;
+    border: 0.3px solid black;
+}
+    .imp2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    gap: 10px;
+}
+
+.box {
+    flex: 1 1 300px; /* grow, shrink, min width */
+    max-width: 100%;
+    border: 0.5px solid black;
+    margin: 10px;
+}
+    
+    .imp {
+        height: 180px;
+        background-position: center;
+    }
+
+    .ama-logo, .logo {
+        width: 80px;
+        height: 50px;
+    }
+}
 
 .sma p{
 
