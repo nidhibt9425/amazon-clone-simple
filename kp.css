@@ -100,8 +100,67 @@ font-size: 0.8rem;
 }
 .menu list{
     width: 70%;
-    font-size: 0.85rem;
+    font-size: 
+        }@media screen and (max-width: 768px) {
+    .ama-search {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .menu-list p {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .imp {
+        height: 180px;
+        background-position: center;
+    }
+
+    .ama-logo, .logo {
+        width: 80px;
+        height: 50px;
+    }
+
+    .box {
+        flex: 1 1 100%;
+        margin-bottom: 20px;
+    }
+
+    .box1, .box2, .box3 {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+    }
+}.small, .large, .sma, .lar, .sm, .la {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 10px;
+}.box {
+    flex: 1 1 100%;
+    max-width: 100%;
+    border: 0.5px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}.box1, .box2, .box3 {
+    width: 45%;
+    aspect-ratio: 1 / 1;
+    background-size: cover;
+    background-position: center;
+    margin: 5px;
+    border: 0.3px solid black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: .box1 p, .box2 p, .box3 p {
+    background: rgba(255, 255, 255, 0.8);
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+    margin: 0;
+    width: 100%;
 }
+
 .menu-elec{
     width: 20%;
     font-size: 0.9rem;
